@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: DM Sans;
+    src: url(../family/DM_Sans/DMSans-Bold.ttf)
+}
+
+body {
+    background: #191919;
+    width: 100%;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0;
+}
+
+header {
+    height: 119px;
+    margin: auto;
+    padding: 44px 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.ul li a {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.ul li a:hover {
+    text-decoration: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #2e638b;
+    transition: all 0.5s
+    ease;
+}
+.card{
+    margin-left: 100px;
+}
+.pages1 {
+
+    display: flex;
+    height: 913px;
+    margin: 0 auto 90px;
+    gap: 70px;
+    align-items: center;
+    padding: 40px 0px;
+    position: relative;
+
+}
+
+.section1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    padding-top: 150px;
+    position: relative;
+}
+
+.card span {
+    top: 50px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+
+}
+.pnj{
+    position: absolute;
+    right: 385px;
+    /* left: -2px; */
+}
+.section2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.jpg2{
+    position: absolute;
+    margin-top: -850px;
+    left: -27px;
+}
+.section1 img {
+    position: absolute;
+}
+
+.pages2 {
+    width: 1500px;
+    height: 545px;
+    background: #000000;
+    border-radius: 32px;
+    padding: 40px;
+    margin-bottom: 66px;
+}
+
+.cards2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 66px;
+}
+
+.cards2 h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+
+}
+button{
+    cursor: pointer;
+}
+.cards2 button {
+    width: 178px;
+    height: 50px;
+    padding: 12px 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    background: #118DA8;
+    border-radius: 6px;
+    color: #FFFFFF;
+
+}
+ button:hover{
+    background-color: #045d6b;
+    color: aqua;
+    transition: all 0.5s ease;
+}
+.pages21 {
+    display: flex;
+    gap: 55px;
+
+}
+
+.but1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #191919;
+    border-radius: 6px;
+    margin-bottom: 66px;
+    padding: 2px 16px;
+}
+
+.text21 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #118DA8;
+    margin-bottom: 18px;
+}
+
+.text2 h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 2.56px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+
+.text22 {
+    width: 757px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 18px;
+}
+
+.but21 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #118DA8;
+    border-radius: 6px;
+    padding: 12px 17px;
+}
+
+.cards3 {
+    display: flex;
+    align-items: center;
+    gap: 194px;
+    margin-bottom: 201px;
+}
+
+.text3 img {
+    margin-bottom: 20px;
+}
+
+.text31 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+}
+
+.text3 h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+
+.text32 {
+    width: 576px;
+    height: 66px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 33px;
+}
+
+.text33 {
+    width: 576px;
+    height: 66px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 33px;
+}
+
+.cards4 {
+    width: 1500px;
+    height: 397px;
+    background: #000000;
+    border-radius: 32px;
+    display: flex;
+    padding: 0px 60px 0px 60px;
+    gap: 227px;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.png {
+    margin: auto;
+    position: absolute;
+    top: 370px;
+    right: 1380px;
+}
+
+.cards4 p {
+    margin-top: 60px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #118DA8;
+}
+
+.cards4 h2 {
+    margin-top: 20px;
+    width: 451px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+
+.input {
+    margin-top: 70px;
+}
+
+.input input {
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    width: 522px;
+    height: 82px;
+    padding: 26px 19px;
+    outline: none;
+    color: aqua;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.input input:hover{
+    background-color: #5b5484;
+    color: rgb(7, 17, 47);
+    transition: all 0.5s ease;
+}
+.input button {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+    padding: 10px 19px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+    background: #118DA8;
+    border-radius: 6px;
+}
+.input button:hover{
+    background-color: #045d6b;
+    color: aqua;
+    transition: all 0.5s ease;
+}
+.cards5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-bottom: 200px;
+    
+}
+
+.card5 {
+    width: 485px;
+    height: 371px;
+    padding: 54px 60px 51px 50px;
+    background: #000000;
+    border-radius: 32px;
+    cursor: pointer;
+}
+.card5:hover{
+    background-color: #082e34;
+    transition: all 0.5s ease;
+}
+.card5 h3 {
+    margin-top: 22px;
+    width: 371px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+.card5 h3:hover{
+    color: aquamarine;
+    transition: 0.5s;
+}
+.card5 p {margin-top: 19px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cards7 {
+    display: flex;
+}
+
+.crad7 {
+    margin-bottom: 30px;
+    margin-right: 239px;
+}
+
+.ul1 li {
+    margin-bottom: 10px;
+    list-style: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+
+.card7-1 {
+    margin-right: 146px;
+}
+
+.card7-2 {
+    margin-right: 100px;
+}
+.card7-3{
+    cursor: pointer;
+}
