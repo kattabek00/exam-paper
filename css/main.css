@@ -71,7 +71,9 @@ header {
     position: relative;
 
 }
-
+img{
+    cursor: pointer;
+}
 .section1 {
     font-family: 'DM Sans';
     font-style: normal;
